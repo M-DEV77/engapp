@@ -1,8 +1,28 @@
+#logo{
+    height: 5vh;
+    margin: 0.4vw;
+}
 nav{
-    height: 8vh;
+    height: 6vh;
     width: 100vw;
-
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
 }
 a{
     margin-left: 1vw;
+    text-decoration: none;
+    color:brown;
+}
+a:hover{
+    color: rgb(95, 95, 95);
+    transition: 120ms;
+}
+/*.app{
+    display: none;
+}
+.page{
+    display: block;
 }

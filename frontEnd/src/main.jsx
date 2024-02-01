@@ -9,6 +9,8 @@ import Viga from './site/pages/Viga.jsx';
 import Pilar from './site/pages/Pilar.jsx';
 import Fundacao from './site/pages/Fundacao.jsx';
 import User from './site/pages/User.jsx';
+import Documentos from './site/pages/Documentos.jsx';
+import Sobre from './site/pages/Sobre.jsx';
 const router = createBrowserRouter([
 {
   path: "/",
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
     {
       path:"/",
       element:<Home/>
+    },
+    {
+      path:"/doc",
+      element:<Documentos/>
+    },
+    {
+      path:"/sobre",
+      element:<Sobre/>
     },
     {
       path:"/app",

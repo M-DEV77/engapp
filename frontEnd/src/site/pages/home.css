@@ -1,0 +1,25 @@
+.contLogin{
+    height: 88vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.cardLogin{
+    background-color: aliceblue;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    height: 5vh;
+    width: 10vw;
+    font-size: 1.3vw;
+    cursor: pointer;
+
+}

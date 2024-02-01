@@ -1,0 +1,9 @@
+footer{
+    height: 6vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}

@@ -1,0 +1,14 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("../img/engenhariacivil.jpg") ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
+  width: 100vw;
+  
+}
